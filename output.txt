@@ -1,0 +1,2 @@
+Running from: /root/jenkins.war
+webroot: $user.home/.jenkins
