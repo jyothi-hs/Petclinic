@@ -63,7 +63,7 @@ stage('Build Managment') {
 	server.upload spec: uploadSpec
 
  }
-
+}
 stage('Publish build info') {
 
   server.publishBuildInfo buildInfo
@@ -73,6 +73,6 @@ stage('Publish build info') {
 stage('Deployment - PreProd') {
 
 sh 'docker-compose up -d --build'
+}
+}
 
-}
-}
